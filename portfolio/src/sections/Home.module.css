@@ -1,0 +1,345 @@
+.animeName {
+    margin: 1rem 0;
+    font-size: 32px;
+    color: #67B284;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.animeName::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+ul {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    gap: 30px;
+    margin: 2em 0 0 20em;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul li a {
+    position: relative;
+    font-size: 2em;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+
+ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #67B284;
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid #67B284;
+    -webkit-text-stroke: 1px #67B284;
+}
+
+ul li a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px #67B284);
+}
+.gallery {
+    text-align: center;
+    background: rgb(18, 18, 18);
+    border: 3px solid rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border: #67B284 solid 5px;
+}
+
+.gallery:hover {    
+    border: #91B302 solid 5px;
+    transition: 1s;
+}
+
+.gallery img {
+    margin: 15px;
+    width: 90%;
+    height: 200px;
+    border-radius: 10px;
+    filter: grayscale(1);
+    transition: all 500ms ease-in-out;
+}
+.gallery img:hover {
+    filter: none;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.mouse_scroll {
+	display: block;
+	margin: 0 auto;
+	width: 24px;
+	height: 100px;
+	margin-top: 130px;
+}
+
+.mScrollArrows
+{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 0 3px 4px;
+  
+  width: 16px;
+  height: 16px;
+}
+.unu {
+  margin-top: 1px;
+}
+
+.unu, .doi, .trei
+{
+    -webkit-animation: mouse_scroll 1s infinite;
+    -moz-animation: mouse_scroll 1s infinite;
+    animation: mouse_scroll 1s infinite;
+  
+}
+
+.unu
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+  
+  animation-direction: alternate;
+  animation-delay: alternate;
+}
+
+.doi
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .2s;
+  animation-direction: alternate;
+  
+  margin-top: -6px;
+}
+
+.trei
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  
+  animation-delay: .3s;
+  animation-direction: alternate;
+  
+  
+  margin-top: -6px;
+}
+
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid white;
+  top: 170px;
+}
+
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: white;
+  position: relative;
+  
+  height: 4px;
+  width: 4px;
+  border: 2px solid #fff;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+  animation: mouse-wheel 0.6s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel{
+   0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@-moz-keyframes mouse-wheel {
+  0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@-o-keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+@keyframes mouse-wheel {
+
+   0% { top: 1px; }
+  25% { top: 2px; }
+  50% { top: 3px;}
+  75% { top: 2px;}
+  100% { top: 1px;}
+}
+
+@-webkit-keyframes mouse_scroll {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse_scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse_scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse_scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+
+
+@media screen and (min-width: 600px) { 
+    .animeName {
+        font-size: 52px;
+    } 
+    ul {
+        flex-direction: row;
+        text-decoration: none;
+        font-size: 26px;
+        padding-right: 1em;
+        padding-top: 1em;
+    }
+    ul li a::before {
+        content: attr(data-text);
+        position: absolute;
+        color: #67B284;
+        width: 0;
+        overflow: hidden;
+        transition: 1s;
+        border-right: 4px solid #67B284;
+        -webkit-text-stroke: 1px #67B284;
+    }
+    .gallery {
+      width: 350px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .animeName {
+    font-size: 42px;
+  }
+  .mouse_scroll {
+    display: none;
+  }
+  ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    bottom: 40px;
+    right: 5em;
+    margin: 2em 0 0 20em;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul li a {
+    position: relative;
+    font-size: 2em;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+
+ul li a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: #67B284;
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 3px solid #67B284;
+    -webkit-text-stroke: 1px #67B284;
+}
+
+ul li a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px #67B284);
+}
+}
