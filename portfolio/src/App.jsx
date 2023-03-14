@@ -142,7 +142,7 @@ export default function App() {
                     <a target="_blank" href="https://projeto-anime.netlify.app/">
                         <img src="./public/animes.PNG" alt="lista de anime" width="600" height="400"></img>
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/GianDoliveira/anime-list-reactJS" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
                     </a>
                     <p className="text-[#91B302] text-3xl">Lista de Animes</p>
