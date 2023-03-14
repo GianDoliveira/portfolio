@@ -122,7 +122,7 @@ export default function App() {
             <section className="flex justify-center flex-wrap">
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://cadastroonline.netlify.app/">
-                        <img src="./public/assets/Capturar.PNG" alt="Tela de Login e Cadastro" width="600" height="400"></img>
+                        <img src="./public/Capturar.PNG" alt="Tela de Login e Cadastro" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/tela-login-reactjs" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -131,7 +131,7 @@ export default function App() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://calculador4imc.netlify.app/">
-                        <img src="./public/assets/imc.PNG" alt="Calculadora de peso e altura" width="600" height="400"></img>
+                        <img src="./public/imc.PNG" alt="Calculadora de peso e altura" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/calculator-imc" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -140,7 +140,7 @@ export default function App() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://projeto-anime.netlify.app/">
-                        <img src="./public/assets/animes.PNG" alt="lista de anime" width="600" height="400"></img>
+                        <img src="./public/animes.PNG" alt="lista de anime" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/anime-list-reactJS" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
