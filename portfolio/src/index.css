@@ -22,6 +22,6 @@ button:hover {
 
 @layer components {
     .button {
-        @apply p-4 text-2xl min-[600px]:text-4xl xl:text-3xl mt-4 mr-4 bg-[#0A0F0B] text-[#91B302] border-2 border-[#91B302] rounded-md text-center cursor-pointer flex justify-center items-center ;
+        @apply p-4 text-2xl min-[600px]:text-4xl xl:text-3xl 2xl:text-5xl mt-4 mr-4 bg-[#0A0F0B] text-[#91B302] border-2 border-[#91B302] rounded-md text-center cursor-pointer flex justify-center items-center ;
     }
 }

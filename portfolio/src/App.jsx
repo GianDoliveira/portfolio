@@ -28,11 +28,11 @@ export default function App() {
     return (<>
         <div className="w-screen h-screen bg-dark-lime">
             <section
-                className="flex pt-40 justify-center text-center min-[600px]:pt-24 min-[600px]:text-justify min-[600px]:pl-10 min-[768px]:pl-10 xl:pt-44">
+                className="flex pt-40 justify-center text-center min-[600px]:pt-24 min-[600px]:text-justify min-[600px]:pl-10 min-[768px]:pl-10 xl:pt-44 2xl:pt-80">
                 <div >
-                    <h1 className="text-[#91B302] text-2xl min-[600px]:text-4xl font-RobotoMono">Hello world! Eu sou</h1>
+                    <h1 className="text-[#91B302] text-2xl min-[600px]:text-4xl 2xl:text-5xl font-RobotoMono">Hello world! Eu sou</h1>
                     <h2 className={styles.animeName}>Gian de Oliveira</h2>
-                    <h1 className="text-[#91B302] text-2xl min-[600px]:text-4xl font-RobotoMono">DESENVOLVEDOR FRONT-END</h1>
+                    <h1 className="text-[#91B302] text-2xl min-[600px]:text-4xl 2xl:text-5xl font-RobotoMono">DESENVOLVEDOR FRONT-END</h1>
                     <div className="flex justify-center pt-7 min-[600px]:justify-start">
                         <a href="https://github.com/GianDoliveira" target="_blank" rel="noreferrer">
                             <button className="button"><BsGithub />GitHub</button>
@@ -64,25 +64,25 @@ export default function App() {
             </section>
         </div>
         <main id="about" className="w-screen xl:h-screen items-center flex-row bg-[#91B302] pt-14 min-[1024px]:flex min-[1024px]:flex-col min-[1284px]:flex-row">
-            <section className="flex flex-col bg-dark-lime shadow-lg shadow-dark-lime py-4 px-10  rounded-md xl:px-6 xl:mx-8 xl:mb-8">
+            <section className="flex flex-col bg-dark-lime shadow-lg shadow-dark-lime py-4 px-10  rounded-md xl:px-6 xl:mx-8 xl:mb-8 2xl:mx-28">
                 <div className="flex flex-row items-center">
                     <img
-                        className="w-28 rounded-full min-[768px]:w-36 xl:w-28"
+                        className="w-28 rounded-full min-[768px]:w-36 xl:w-28 2xl:w-44"
                         alt="User Icon Avatar"
                         src="https://avatars.githubusercontent.com/u/104948437?v=4"
                     />
                     <div className="ml-4">
-                        <h2 className="text-[#efefef] font-semibold text-xl min-[768px]:text-4xl xl:text-2xl">
+                        <h2 className="text-[#efefef] font-semibold text-xl min-[768px]:text-4xl xl:text-2xl 2xl:text-4xl">
                             Gian de Oliveira Ramalho
                         </h2>
-                        <h3 className="text-indigo-100 pt-1 min-[768px]:text-2xl  xl:text-lg">Desenvolvedor Front-End</h3>
+                        <h3 className="text-indigo-100 pt-1 min-[768px]:text-2xl  xl:text-lg 2xl:text-3xl">Desenvolvedor Front-End</h3>
                     </div>
                 </div>
-                <div className="mt-6">
-                    <h2 className="font-semibold text-2xl mb-2 text-[#efef]  xl:text-xl">SOBRE MIM</h2>
+                <div className="mt-5">
+                    <h2 className="font-semibold text-2xl mb-2 text-[#efef]  xl:text-xl 2xl:text-3xl">SOBRE MIM</h2>
                     <p
                         className="text-indigo-100 font-light mt-1 max-w-xs text-xl text-justify min-[768px]:text-2xl min-[600px]:max-w-2xl
-                    min-[1024px]:max-w-3xl xl:max-w-2xl xl:text-lg
+                    min-[1024px]:max-w-3xl xl:max-w-2xl xl:text-lg 2xl:text-3xl
                     ">
                         Despertei o interesse por programar em Março de 2022, quando infelizmente descobri que não conseguiria passar em uma específica etapa de um concurso militar. Venho estudando por meio de muitas pesquisas, auxílios de documentação e bastante prática. Possuo alguns projetos que eu mesmo fiz e desenvolvi, e estou aberto há vagas.
                     </p>
