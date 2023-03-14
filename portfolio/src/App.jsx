@@ -122,7 +122,7 @@ export default function App() {
             <section className="flex justify-center flex-wrap">
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://cadastroonline.netlify.app/">
-                        <img src="./public/Capturar.PNG" alt="Tela de Login e Cadastro" width="600" height="400"></img>
+                        <img src="https://user-images.githubusercontent.com/104948437/206184428-869c1d38-8b19-46f6-a50a-b19658117c17.PNG" alt="Tela de Login e Cadastro" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/tela-login-reactjs" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -131,7 +131,7 @@ export default function App() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://calculador4imc.netlify.app/">
-                        <img src="./public/imc.PNG" alt="Calculadora de peso e altura" width="600" height="400"></img>
+                        <img src="https://user-images.githubusercontent.com/104948437/225163058-8714b585-04c1-4ec0-a84d-59b6e7cecc37.PNG" alt="Calculadora de peso e altura" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/calculator-imc" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -140,7 +140,7 @@ export default function App() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://projeto-anime.netlify.app/">
-                        <img src="./public/animes.PNG" alt="lista de anime" width="600" height="400"></img>
+                        <img src="https://user-images.githubusercontent.com/104948437/225163286-ce981dc9-ca90-40bb-bc63-fa9d0066146a.PNG" alt="lista de anime" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/anime-list-reactJS" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
