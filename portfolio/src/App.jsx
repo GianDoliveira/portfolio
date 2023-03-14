@@ -37,7 +37,7 @@ export default function App() {
                         <a href="https://github.com/GianDoliveira" target="_blank" rel="noreferrer">
                             <button className="button"><BsGithub />GitHub</button>
                         </a>
-                        <a href="https://www.aedin.com/in/gian-de-oliveira/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/gian-de-oliveira/" target="_blank" rel="noreferrer">
                             <button className="button">Linked<BsLinkedin /></button>
                         </a>
                     </div>
@@ -88,7 +88,7 @@ export default function App() {
                     </p>
                 </div>
                 <div className="flex justify-center">
-                    <a href="/public/Currículo DEV.pdf" target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1kblYV0jGt6QO3b4KynXuisI3DZ_8V_pn/view" target="_blank" rel="noreferrer">
                         <button className="button"><AiOutlineDownload />Currículo</button>
                     </a>
                 </div>
