@@ -122,7 +122,7 @@ export default function App() {
             <section className="flex justify-center flex-wrap">
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://cadastroonline.netlify.app/">
-                        <img src="./public/Capturar.PNG" alt="Tela de Login e Cadastro" width="600" height="400"></img>
+                        <img src="https://lh3.googleusercontent.com/Puvt9DF08VGR8x_-TjeciC19ycqmkH3Tnu66UWsKGfSSCmgjpw5E4iy6nrGLZh69y9QcneygbdRqYZLRf_C6rP3lBSoKOJlnJErxo-N0" alt="Tela de Login e Cadastro" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/tela-login-reactjs" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -131,7 +131,7 @@ export default function App() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://calculador4imc.netlify.app/">
-                        <img src="./public/imc.PNG" alt="Calculadora de peso e altura" width="600" height="400"></img>
+                        <img src="https://lh3.googleusercontent.com/TUdcw-dgAMXvPGSQ0esiw5hWUXBZj-IDkGXZwM77hBSI5jlXBNiiec8mmUp87clJaEzQnjyQm3ICD1qOlkBvDBMzyGna5Sm__jVwOgG6mg" alt="Calculadora de peso e altura" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/calculator-imc" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -140,7 +140,7 @@ export default function App() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://projeto-anime.netlify.app/">
-                        <img src="./public/animes.PNG" alt="lista de anime" width="600" height="400"></img>
+                        <img src="https://lh3.googleusercontent.com/5HjtJhPr4t5YIQKUimL5_LKUFxdS9G3Q5Xd71zCj1KvXy6sPHhTEfOKjr_KkrP6obmofsXdKndC3uKCuIF-eCgS6uM_Hqcas0wDTfTc" alt="lista de anime" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/anime-list-reactJS" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
