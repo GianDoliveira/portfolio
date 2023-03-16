@@ -138,15 +138,7 @@ export default function App() {
                     </a>
                     <p className="text-[#91B302] text-3xl">Calculadora IMC</p>
                 </div>
-                <div className={styles.gallery}>
-                    <a target="_blank" href="https://projeto-anime.netlify.app/">
-                        <img src="https://user-images.githubusercontent.com/104948437/225163286-ce981dc9-ca90-40bb-bc63-fa9d0066146a.PNG" alt="lista de anime" width="600" height="400"></img>
-                    </a>
-                    <a href="https://github.com/GianDoliveira/anime-list-reactJS" target="_blank" rel="noreferrer">
-                        <button className="button"><BsGithub /></button>
-                    </a>
-                    <p className="text-[#91B302] text-3xl">Lista de Animes</p>
-                </div>
+                
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://temperature-city.netlify.app/">
                         <img src="https://user-images.githubusercontent.com/104948437/205452529-653aa6fa-f313-413b-90da-50fa80fa8597.PNG" alt="App para identificar clima da cidade" width="600" height="400"></img>
