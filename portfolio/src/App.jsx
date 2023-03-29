@@ -160,7 +160,7 @@ export default function App() {
             </section>
         </main>
         <footer className="relative pt-10">
-            <p className="bg-dark-lime text-[#efefef] text-xl text-center w-screen">© Gian de Oliveira. All rigths reserved</p>
+            <p className="bg-dark-lime text-[#efefef] text-xl text-center w-screen inline-block">© Gian de Oliveira. All rigths reserved</p>
         </footer>
     </>
     )
