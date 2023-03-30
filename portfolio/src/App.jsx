@@ -158,10 +158,10 @@ export default function App() {
                     <p className="text-[#91B302] text-3xl">Em andamento</p>
                 </div>
             </section>
-        </main>
-        <footer className="relative pt-10">
-            <p className="bg-dark-lime text-[#efefef] text-xl text-center w-screen inline-block">© Gian de Oliveira. All rigths reserved</p>
+            <footer className="relative pt-10">
+            <p className="bg-dark-lime text-[#efefef] text-xl text-center w-screen">© Gian de Oliveira. All rigths reserved</p>
         </footer>
+        </main>
     </>
     )
 }
