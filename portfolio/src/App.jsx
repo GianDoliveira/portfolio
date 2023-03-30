@@ -88,7 +88,7 @@ export default function App() {
                     </p>
                 </div>
                 <div className="flex justify-center">
-                    <a href="https://drive.google.com/file/d/1kblYV0jGt6QO3b4KynXuisI3DZ_8V_pn/view" target="_blank" rel="noreferrer">
+                    <a href="./public/GianCurriculo.pdf" download>
                         <button className="button"><AiOutlineDownload />Currículo</button>
                     </a>
                 </div>
