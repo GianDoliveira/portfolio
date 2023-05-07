@@ -149,13 +149,13 @@ export default function App() {
                     <p className="text-[#91B302] text-3xl">App Clima</p>
                 </div>
                 <div className={styles.gallery}>
-                    <a target="_blank" href="">
-                        <img src="" alt="" width="600" height="400"></img>
+                    <a target="_blank" href="https://sacole-online.netlify.app">
+                        <img src="https://screenshot-proxy.netlify.app/f_avif,w_336/https://d33wubrfki0l68.cloudfront.net/64570fb43e32be0007ea5ad9/screenshot_2023-05-07-02-41-22-0000.png" alt="Loja que informa os sacolés ou geladinhos disponíveis e seus preços" width="600" height="400"></img>
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/GianDoliveira/projeto-sacole" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
                     </a>
-                    <p className="text-[#91B302] text-3xl">Em andamento</p>
+                    <p className="text-[#91B302] text-3xl">Loja de Sacolé</p>
                 </div>
             </section>
             <footer className="relative pt-10">
