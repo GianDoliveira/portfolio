@@ -84,7 +84,7 @@ export default function App() {
                         className="text-indigo-100 font-light mt-1 max-w-xs text-xl text-justify min-[768px]:text-2xl min-[600px]:max-w-2xl
                     min-[1024px]:max-w-3xl xl:max-w-2xl xl:text-lg 2xl:text-3xl
                     ">
-                        Despertei o interesse por programar em Março de 2022, quando infelizmente descobri que não conseguiria passar em uma específica etapa de um concurso militar. Venho estudando por meio de muitas pesquisas, auxílios de documentação e bastante prática. Possuo alguns projetos que eu mesmo fiz e desenvolvi, e estou aberto há vagas.
+                        Comecei programar em Março de 2022 e foi quando comecei a me interessar pelo mercado WEB, desde cedo tinha o interesse em computadores e quando aprendi bastante sobre hardware decidi focar em sistemas e suas criações e conversando com um amigo que surgiu a ideia e vontade de investir na área de programação! Venho estudando e aprendendo por meio de muitas pesquisas, documentações, práticas e algumas vídeo aulas. Possuo alguns projetos que eu mesmo criei do 0 e desenvolvi.
                     </p>
                 </div>
                 <div className="flex justify-center">
