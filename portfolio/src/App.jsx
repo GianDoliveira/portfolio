@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { AiOutlineDownload, AiFillHtml5 } from "react-icons/ai"
 import { DiCss3 } from "react-icons/di"
-import { SiJavascript, SiTailwindcss } from "react-icons/si"
+import { SiJavascript, SiMongodb, SiMysql, SiTypescript } from "react-icons/si"
 import { GrReactjs } from "react-icons/gr"
 import { FaNodeJs } from "react-icons/fa"
 
@@ -41,10 +41,10 @@ export default function App() {
                             <button className="button">Linked<BsLinkedin /></button>
                         </a>
                     </div>
-                    <div class={styles.mouse_scroll}>
+                    <div className={styles.mouse_scroll}>
 
-                        <div class={styles.mouse}>
-                            <div class={styles.whell}></div>
+                        <div className={styles.mouse}>
+                            <div className={styles.whell}></div>
                         </div>
                         <div>
                             <span className={`${styles.mScrollArrows} ${styles.unu}`} ></span>
@@ -88,7 +88,7 @@ export default function App() {
                     </p>
                 </div>
                 <div className="flex justify-center">
-                    <a href="/GianCurriculo.pdf" download="GianCurriculo.pdf">
+                    <a href="/Gian de Oliveira Ramalho.pdf" download="CVGian.pdf">
                         <button className="button"><AiOutlineDownload />Currículo</button>
                     </a>
                 </div>
@@ -112,7 +112,13 @@ export default function App() {
                         <p className="hover:text-lime-200 min-[600px]:text-7xl min-[600px]:pl-4 min-[768px]:pl-10 xl:pl-2"><FaNodeJs /></p>
                     </div>
                     <div className="borderHabilities">
-                        <p className="hover:text-lime-200 min-[600px]:text-7xl min-[600px]:pl-4 min-[768px]:pl-10 xl:pl-2"><SiTailwindcss /></p>
+                        <p className="hover:text-lime-200 min-[600px]:text-7xl min-[600px]:pl-4 min-[768px]:pl-10 xl:pl-2"><SiTypescript /></p>
+                    </div>
+                    <div className="borderHabilities">
+                        <p className="hover:text-lime-200 min-[600px]:text-7xl min-[600px]:pl-4 min-[768px]:pl-10 xl:pl-2"><SiMongodb/></p>
+                    </div>
+                    <div className="borderHabilities">
+                        <p className="hover:text-lime-200 min-[600px]:text-7xl min-[600px]:pl-4 min-[768px]:pl-10 xl:pl-2"><SiMysql/></p>
                     </div>
                 </div>
             </div>
