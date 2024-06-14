@@ -45,7 +45,7 @@ function Projects() {
                 </div>
                 <div className={styles.gallery}>
                     <a target="_blank" href="https://missoesimw1re.com.br/">
-                        <img src="/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/666af395abee1c0008c543ae/screenshot_2024-06-13-13-28-27-0000.webp&fit=cover&h=500&w=800" width="600" height="400"></img>
+                        <img src="https://missoesimw1re.com.br/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/666af395abee1c0008c543ae/screenshot_2024-06-13-13-28-27-0000.webp&fit=cover&h=330&w=528" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/srm" target="_blank" rel="noreferrer">
                         <button className="button"><BsGithub /></button>
@@ -60,4 +60,8 @@ function Projects() {
     );
 };
 
-export default Projects;
+export default Projects
+
+
+
+
