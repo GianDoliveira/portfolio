@@ -1,5 +1,5 @@
 import styles from './Home.module.css';
-import { BsGithub} from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 function Projects() {
     return (
@@ -42,6 +42,15 @@ function Projects() {
                         <button className="button"><BsGithub /></button>
                     </a>
                     <p className="text-[#91B302] text-3xl">Loja de Sacolé</p>
+                </div>
+                <div className={styles.gallery}>
+                    <a target="_blank" href="https://missoesimw1re.com.br/">
+                        <img src="/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/666af395abee1c0008c543ae/screenshot_2024-06-13-13-28-27-0000.webp&fit=cover&h=500&w=800" width="600" height="400"></img>
+                    </a>
+                    <a href="https://github.com/GianDoliveira/srm" target="_blank" rel="noreferrer">
+                        <button className="button"><BsGithub /></button>
+                    </a>
+                    <p className="text-[#91B302] text-3xl">Secretaria Regional de Missões</p>
                 </div>
             </section>
             <footer className="relative pt-10">
