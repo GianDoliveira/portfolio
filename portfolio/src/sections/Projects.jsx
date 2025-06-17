@@ -44,7 +44,7 @@ function Projects() {
                     <p className="text-[#91B302] text-3xl">Loja de Sacolé</p>
                 </div>
                 <div className={styles.gallery}>
-                    <a target="_blank" href="https://missoesimw1re.com.br/">
+                    <a target="_blank" href="hhttps://srm1re.netlify.app/">
                         <img src="./srm miniatura.JPG" width="600" height="400"></img>
                     </a>
                     <a href="https://github.com/GianDoliveira/srm" target="_blank" rel="noreferrer">
